@@ -1,0 +1,18 @@
+.scheduleRoot {
+  background: rgba(0,0,0, 0.5);
+  margin-top: 100px;
+  padding: 20px;
+
+  .title {
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .schedule {
+    display: flex;
+    flex-direction: row;
+  }
+}
+

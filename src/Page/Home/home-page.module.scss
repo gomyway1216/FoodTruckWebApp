@@ -1,0 +1,67 @@
+.homeRoot {
+
+  .home {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+    .homeContent {
+      color: white;
+      position: relative;
+      width: 80vw;
+      align-self: center;
+      margin: auto;
+
+      .title {
+        font-size: 48px;
+        font-weight: 700;
+      }
+
+      .subTitle {
+        font-size: 24px;
+        font-weight: 300;
+      }
+    }
+  }
+  
+  .home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(10, 10, 10, 0.7);
+  }
+
+  .menu {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .about {
+    background-image: url(../../img/tokachi_background.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+  
+    .copyright {
+      text-align: center;
+    }
+  }
+}

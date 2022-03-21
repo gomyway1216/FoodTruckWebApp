@@ -1,0 +1,31 @@
+.menuListRoot {
+
+  .title {
+    position: relative;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .menuListWrapper {
+    display: flex;
+    flex-direction: row;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .category {
+      width: 45%;
+      margin-top: 10px;
+
+      .sectionTitle {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+
+
+  }
+
+}
